@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	printf("こんにちは");
+	printf("こんにちは\n");
 	printf("お元気ですか？");
 
 	return 0;
