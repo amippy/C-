@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	printf("点数は%d点です。\n",'A');
+	printf("計算結果は%dです。\n",5+6);
 	
 
 	return 0;
