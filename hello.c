@@ -1,9 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(void)
 {
-	printf("朝起きて\"おはようございます\"と挨拶しました。\n"); /*文字を表示させる*/
+	printf("点数は%d点です。\n",80);
 
 	return 0;
 }
-
