@@ -2,8 +2,7 @@
 
 int main(void)
 {
-	printf("こんにちは\n");
-	printf("お元気ですか？\n");
+	printf("朝起きて\"おはようございます\"と挨拶しました。\n");
 
 	return 0;
 }
