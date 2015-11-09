@@ -2,10 +2,15 @@
 
 int main(void)
 {
-	double a;		//少数型で変数の宣言
-	a = 10.5;		/*数値の代入*/
+	int a,b;		
 
-	printf("値は%fです。\n",a);	/*画面に出力*/
+	a = 11;
+	b = 5;
+
+	printf("11+5=%d\n",a+b);	
+	printf("11-5=%d\n",a-b);
+	printf("11x5=%d\n",a*b);
+	printf("11÷5=%d...%d\n",a/b,a%b);
 			/*この行にブレークポイントを設定*/
 
 	return 0;
