@@ -2,11 +2,12 @@
 
 int main(void)
 {
-	int a = 5;
-	double b = 9.5;
+	int a = 13;
 
-	printf("値は%fです。\n",a*b);
+	double b = 2.5;
 
+	printf("値は%dです。\n",(int)(a-b));		//a-bの値はdouble型
+	
 
 	return 0;
 }
