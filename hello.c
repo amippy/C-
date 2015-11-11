@@ -2,11 +2,11 @@
 
 int main(void)
 {
-	int a = 13;
+	
+	int a;
+	a = 11+5;
 
-	double b = 2.5;
-
-	printf("値は%dです。\n",(int)(a-b));		//a-bの値はdouble型
+	printf("11+5=%d\n",a);	
 	
 
 	return 0;
