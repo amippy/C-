@@ -3,10 +3,11 @@
 int main(void)
 {
 	
-	int a;
-	a = 11+5;
+	int a,b;
+	a = 1;
+	b = a++ ;		//後置インクリメント
 
-	printf("11+5=%d\n",a);	
+	printf("a=%d,b=%d \n",a,b);	
 	
 
 	return 0;
