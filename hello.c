@@ -8,11 +8,12 @@ int main(void)
 	printf("整数を入力して！\n");
 	scanf("%d",&a);
 
-	if(a >=5 && a<= 10)
-		printf("aの値は５から１０の間でーす。\n");
+	if(a==0){
+		printf("aの値は０です。\n");
 
-	if(! (a >=5 && a <= 10))
-		printf("aの値は５から０の間ではないよおお！\n");
+	}else{
+		printf("aの値は０以外ですよ！\n");
+	}
 
 	return 0;
 }
