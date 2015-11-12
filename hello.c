@@ -3,19 +3,15 @@
 int main(void)
 {
 	
-	int i=0;
+	int a[5]={5,7,10,100,150};	//配列の宣言と初期化　
 	
-	printf("do you know my favorite number? if you can answer i will kiss you lol \n");
 
-
-	do{
-		scanf("%d",&i);
-		printf("oh fuch i dont like this\n");
-	}while(i!=0);
-
-	printf("oh yes ! you gonna get my...<3\n");
-
-
+	printf("値は%dです！\n",a[0]);
+	printf("値は%dです！\n",a[1]);
+	printf("値は%dです！\n",a[2]);
+	printf("値は%dです！\n",a[3]);
+	printf("値は%dです！\n",a[4]);
+	
 
 	return 0;
 }
