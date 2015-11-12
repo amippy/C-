@@ -3,16 +3,16 @@
 int main(void)
 {
 	
-	int i,a;
+	int i=0;
 
-	for(i=0; i<=10; i++){			//変数iが１から１０になるまでループ
+	printf("整数を入力して当たりの値を見つけてください。\n");
 
-		for(a=0;a<=i;a++){		//変数aが０から変数iになるまでループ
-			printf("❤︎");		//❤︎を画面に表示
-	}
-	printf("\n");
-
-	}
+	while(i!=1){
+		scanf("%d",&i);
+}
+	printf("当たりだよ\n");
+	
+	
 
 
 	return 0;
