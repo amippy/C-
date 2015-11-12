@@ -3,10 +3,10 @@
 int main(void)
 {
 	
-	char i = 'a';		//char型の変数iを宣言し「a」を代入
+	char i[] = "こんにちは";	
 
-	printf("%c\n",i);	//文字として表示させる
-	printf("%d\n",i);	//数値として表示させる
+	printf("%s\n",i);
+
 
 
 	return 0;
