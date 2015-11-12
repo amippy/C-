@@ -5,18 +5,22 @@ int main(void)
 	
 	int a;
 	
-	printf("整数を入力して！\n");
+	printf("私があなたのどこの筋肉の部位が好きか教えてあげる❤︎　1-3の数字を入力してね♪♪ウフフッ❤︎❤︎\n");
 	scanf("%d",&a);
 
-	if(a < 100){
-		printf("aの値は100より小さいです。\n");
+	switch(a){
+	case 1 :
+		printf("腹斜筋♪♪\n");
+		break;
+	
+	case 2 :
+		printf("上腕三頭金♪♪\n");
+		break;
 
-	}else if (a== 100){
-		printf("aの値は100と同じ値ですよ！\n");
-	}else{
-		printf("aの値は１００より大きい値ですな\n");
-	}
-
+	
+	default:
+		printf("大胸筋\n");
+}
 
 	return 0;
 }
