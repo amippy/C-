@@ -4,9 +4,12 @@ int main(void)
 {
 	
 	int a = 0;
-	if(a== 0)		//aが０に等しい場合、処理を実行
-		printf("aの値は０だよ！！\n");
+	
+	printf("整数を入力して！\n");
+	scanf("%d",&a);
 
+	if(a==0)
+		printf("aの値は０でーす。\n");
 
 	return 0;
 }
