@@ -3,11 +3,10 @@
 int main(void)
 {
 	
-	int a,b;
-	a = 1;
-	b = ++a ;		//前置インクリメント
+	int a;
 
-	printf("a=%d,b=%d \n",a,b);	
+	scanf("%d",&a);		//キーボードから入力
+	printf("%dを入力しました。\n",a);	
 	
 
 	return 0;
