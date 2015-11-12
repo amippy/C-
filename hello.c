@@ -3,14 +3,16 @@
 int main(void)
 {
 	
-	int i;
+	int i,a;
 
-	for(i=0; i<=10; i++){
-		printf("変数iの値は、%dです。\n",i);
+	for(i=0; i<=10; i++){			//変数iが１から１０になるまでループ
+
+		for(a=0;a<=i;a++){		//変数aが０から変数iになるまでループ
+			printf("❤︎");		//❤︎を画面に表示
 	}
-	printf("forループから抜けて、変数iの値は%d！\n",i);
+	printf("\n");
 
-
+	}
 
 
 	return 0;
