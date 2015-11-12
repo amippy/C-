@@ -5,10 +5,10 @@ int main(void)
 	
 	int i;
 
-	for(i=0; i<=10; i=i+1){
-		printf("Hello Dear ❤︎\n");
+	for(i=0; i<=10; i++){
+		printf("変数iの値は、%dです。\n",i);
 	}
-
+	printf("forループから抜けて、変数iの値は%d！\n",i);
 
 
 
