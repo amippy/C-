@@ -3,9 +3,11 @@
 int main(void)
 {
 	
-	char i[] = "こんにちは";	
+	char i[100] ;
 
-	printf("%s\n",i);
+	printf("What ur name?\n");
+	scanf("%s",i);
+	printf("hello%s!! Nice to meet u! \n",i);
 
 
 
