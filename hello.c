@@ -1,20 +1,24 @@
 #include <stdio.h>
 
-void hello(void);     //プロトタイプ宣言
+void keisan(int a);   //プロトタイプ宣言
 
-int main(void)       //main関数の呼び出し
+int main(void)
+
 {
-  printf("morning\n");
-  hello();           //hello関数の呼び出し
-  printf("evening\n");
+  printf("値はなんですか？\n");
+  keisan(10);   //keisan関数の呼び出し
 
   return 0;
 }
 
-void hello(void)        //hello関数を自作
+void keisan(int a)   // keisan関数
 {
-  printf("yahoo!\n");
+  if(a<=20){
+    printf("値は２０以下です。\n");
+  }else{
+    printf("値は２１以上です。\n");
+  }
 
-  return ;
+  return;
 
 }
