@@ -1,28 +1,17 @@
 #include <stdio.h>
 
-
-void keisan(int a );
+int rei(int a);
 
 int main(void)
 {
-  int n;
+  int n=rei(100);
+  printf("合計=%d\n",n);
 
-  printf("値を入力してください\n");
-  scanf("%d",&n);
-
-  keisan(n);    /*変数nを指定してkeisan関数を呼び出す*/
- 
   return 0;
-
 }
-void keisan(int a)
+int rei(int a)
 {
-  if(a<=20){
-    printf("値は20以下です。\n");
-  }else{
-    printf("値は20以上です。\n");
-  }
+  int goukei= a+100+100;
 
-  return ;
+  return goukei;
 }
-
