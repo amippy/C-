@@ -2,13 +2,15 @@
 
 int main(void)
 {
-  char a[]="生美大好き";
 
+  int a=10;
   FILE *f;
 
-  f=fopen("test.txt","w");
-  fprintf(f,"%s",a);
+  f=fopen("test.dat","rb");
+  fread(&a,sizeof(a),1,f);
   fclose(f);
+  printf("%d\n",a);
 
   return 0;
 }
+
